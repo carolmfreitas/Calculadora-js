@@ -5,6 +5,9 @@ body {
 div.container {
     background: rgb(245, 245, 245);
     border-radius: 40px;
+    padding-bottom: 50px;
+    font-family: helvetica;
+    color:rgb(27, 27, 27);
 }
 
 .container {
@@ -15,10 +18,10 @@ div.container {
 
 #display {
     text-align: right;
-    height: 200px;
+    height: 100px;
     line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
+    padding: 60px 8px 20px 8px;
+    font-size: 60px;
 }
 
 .buttons {
@@ -35,6 +38,10 @@ div.container {
     text-align: center;
     font-size: 30px;
     cursor: pointer;
+}
+
+#delete {
+    font-size: 26px;
 }
 
 #equal {
